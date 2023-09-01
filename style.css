@@ -1,0 +1,63 @@
+/* Style for the body */
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    background-image: url("Image/subway.jpg");
+    background-size: cover;
+}
+/* Style for the row class */
+.row{
+    max-width: 700px;
+    margin: 0px auto;
+    text-align: center;
+    border:3px solid black;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+/* Style for button1*/
+#btn{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: darkred;
+    font-size: 19px;
+    cursor: pointer;
+    border:3px solid black;
+
+}
+/* Style for button2 */
+#btn-grp{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: darkgreen;
+    font-size: 19px;
+    cursor: pointer;
+    border:3px solid black;
+}
+
+/* Responsiveness for mobile Design */
+@media only screen and (max-width: 600px) {
+    .row{
+       margin: 20px; 
+    }
+}
